@@ -1,0 +1,173 @@
+/* .master-info-section
+{
+    z-index: 9;
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    padding: 80px 0px;
+} */
+
+/* .master-info-section section
+{
+    position: relative;
+} */
+
+.education-logo-container
+{
+    position: relative;
+    margin: 5px auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    /* padding: 50px; */
+    /* background-color: #242b2a; */
+    background-image: linear-gradient(to bottom, #242b2a 0% 40%, whitesmoke 40%, black);
+    border: 4px solid rgba(255,255,255,1);
+}
+.education-logo
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+}
+.edu-title
+{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 250;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+}
+
+.edu-stream
+{
+    text-align: center;
+    font-size: large;
+    font-variant: small-caps;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #3f7061;
+}
+.edu-details
+{
+    text-align: center;
+    color: black;
+}
+
+.visit-btn
+{
+    background-color: #242b2a;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+.visit-btn:hover
+{
+    opacity: 0.9;
+    color: white;
+}
+
+.skills-section
+{
+    background-color: #242b2a;
+}
+
+.skill-subsection-header
+{
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: 250;
+    font-size: 30px;
+    color: aquamarine;
+    background-color: rgba(100,220,200,0.05);
+    padding: 10px 15px;
+    margin: 10px 2px;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+.skill-item-logo-container
+{
+    position: relative;
+    margin: 6px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* padding: 50px; */
+    /* background-color: #242b2a; */
+    background-image: linear-gradient(to right, rgb(140,140,140) 0% 50%, whitesmoke 50% 100%);
+    border: 4px solid rgba(255,255,255,1);
+
+    transition: 0.25s;
+}
+.skill-item-logo-container:hover
+{
+    position: relative;
+    margin: -6px auto 4px;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    /* padding: 50px; */
+    /* background-color: #242b2a; */
+    background-image: linear-gradient(to right, rgb(100,100,100) 0% 50%, lightgray 50% 100%);
+    border: 4px solid rgba(255,255,255,1);
+    cursor: pointer;
+}
+
+.skill-item-logo
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+}
+.skill-item-name
+{
+    color: white;
+    font-weight: 200;
+    text-align: center;
+}
+
+.projects-section
+{
+    background-color: #d3e3df;
+}
+
+.contacts-section
+{
+    background-color: #242b2a;
+    height: 60vh;
+}
+
+#text-contact
+{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+@media (max-width: 450px) {
+    
+    #text-contact
+    {
+        color: white;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+@media (max-width: 300px) {
+    
+    #text-contact
+    {
+        color: white;
+        text-align: center;
+        font-size: 16px;
+    }
+}
